@@ -100,6 +100,6 @@ docker/
 
 ## Notas del proyecto
 
-- El contenido esta redactado en espanol para el cliente final.
+- El contenido esta redactado en español para el cliente final.
 - Las imagenes de la galeria se cargaron desde material real provisto para el emprendimiento.
 - La base queda lista para evolucionar a panel interno, mails o integraciones futuras sin rehacer la app.
