@@ -18,10 +18,6 @@ Web institucional desarrollada en Laravel para presentar servicios, trabajos rea
 
 La web necesitaba salir rapido, con codigo ordenado y facil de defender como propio. Laravel resuelve rutas, vistas, validacion, persistencia y testing sin dividir la aplicacion en capas artificiales.
 
-### Por que Node no es un backend separado aca
-
-Node se usa solo para Vite y compilacion de assets. Para esta web, separar un backend en Node agregaba complejidad sin beneficio real. Si despues se quiere sumar Node al portfolio, conviene hacerlo en otra aplicacion donde tenga un rol protagonista.
-
 ### Como se aplican SOLID y Clean sin sobreingenieria
 
 - `HomeController` solo compone la vista principal.
@@ -107,8 +103,3 @@ docker/
 - El contenido esta redactado en espanol para el cliente final.
 - Las imagenes de la galeria se cargaron desde material real provisto para el emprendimiento.
 - La base queda lista para evolucionar a panel interno, mails o integraciones futuras sin rehacer la app.
-
-## Documentacion complementaria
-
-- `docs/architecture-notes.md`
-- `docs/interview-guide.md`
