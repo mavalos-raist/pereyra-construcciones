@@ -1,0 +1,22 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    working_dir: /var/www/html
+    command: ["sh", "./docker/app/entrypoint.sh"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/www/html
+
+  vite:
+    image: node:22-alpine
+    working_dir: /var/www/html
+    command: ["sh", "-c", "npm install && npm run dev -- --host 0.0.0.0"]
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - app

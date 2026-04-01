@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+if [ ! -f .env ]; then
+    cp .env.example .env
+fi
+
+mkdir -p database
+touch database/database.sqlite
+
+composer install --no-interaction
+
+if ! grep -q '^APP_KEY=base64:' .env; then
+    php artisan key:generate --force --ansi
+fi
+
+php artisan migrate --graceful --ansi
+php artisan serve --host=0.0.0.0 --port=8000
