@@ -18,7 +18,7 @@ Web institucional desarrollada en Laravel para presentar servicios, trabajos rea
 
 La web necesitaba salir rapido, con codigo ordenado. Laravel resuelve rutas, vistas, validacion, persistencia y testing sin dividir la aplicacion en capas artificiales.
 
-### Como se aplican SOLID y Clean sin sobreingenieria
+### Como se aplican SOLID y Clean
 
 - `HomeController` solo compone la vista principal.
 - `ContactLeadController` coordina el caso de uso del formulario.
