@@ -16,7 +16,7 @@ Web institucional desarrollada en Laravel para presentar servicios, trabajos rea
 
 ### Por que Laravel full-stack
 
-La web necesitaba salir rapido, con codigo ordenado y facil de defender como propio. Laravel resuelve rutas, vistas, validacion, persistencia y testing sin dividir la aplicacion en capas artificiales.
+La web necesitaba salir rapido, con codigo ordenado. Laravel resuelve rutas, vistas, validacion, persistencia y testing sin dividir la aplicacion en capas artificiales.
 
 ### Como se aplican SOLID y Clean sin sobreingenieria
 
